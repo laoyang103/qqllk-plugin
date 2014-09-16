@@ -1,0 +1,36 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: 秒杀连连看 - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\laoyang\AppData\Local\Temp\RSP8652.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /FR"Debug/" /Fp"Debug/秒杀连连看.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\Workspace\VC_Protect\游戏外挂\秒杀连连看\Kill.cpp"
+]
+Creating command line "cl.exe @C:\Users\laoyang\AppData\Local\Temp\RSP8652.tmp" 
+Creating temporary file "C:\Users\laoyang\AppData\Local\Temp\RSP8662.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/秒杀连连看.pdb" /debug /machine:I386 /out:"Debug/秒杀连连看.exe" /pdbtype:sept 
+".\Debug\Kill.obj"
+".\Debug\main.obj"
+]
+Creating command line "link.exe @C:\Users\laoyang\AppData\Local\Temp\RSP8662.tmp"
+<h3>Output Window</h3>
+Compiling...
+Kill.cpp
+Linking...
+Creating command line "bscmake.exe /nologo /o"Debug/秒杀连连看.bsc"  ".\Debug\Kill.sbr" ".\Debug\main.sbr""
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+秒杀连连看.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
